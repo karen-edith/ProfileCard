@@ -1,0 +1,71 @@
+.info-table {
+  width: 85%;
+  /*border: 2px solid green;*/
+  margin: 0 auto; }
+
+Table {
+  text-align: center; }
+
+h4 {
+  text-align: center;
+  padding: 5px; }
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+  background-color: #ddd1e7; }
+
+.table-striped > tbody > tr > td, .table-striped > tbody > tr > th {
+  border-bottom: 2px solid purple;
+  text-align: center; }
+
+.table-striped > thead > tr > th {
+  border-bottom: 2px solid purple;
+  border-top: 2px solid purple;
+  background-color: #BEBEBE;
+  text-align: center; }
+
+.list-button {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 20px; }
+
+.ul-btn {
+  background-color: purple;
+  color: white; }
+
+.instructions {
+  width: 70%;
+  border: 2px solid purple;
+  margin: 0 auto;
+  box-shadow: 0px 0px 20px;
+  border-radius: 30px;
+  margin-top: 8vh; }
+
+img {
+  width: 100px;
+  height: 100px;
+  display: inline-block; }
+
+.instruction-1 {
+  display: inline-block;
+  width: 30%;
+  border-bottom: 2px dashed purple;
+  text-align: center;
+  vertical-align: top;
+  height: 18vh; }
+
+.instruction-2 {
+  display: inline-block;
+  width: 70%;
+  border-bottom: 2px dashed purple;
+  vertical-align: top;
+  height: 18vh; }
+  .instruction-2 div {
+    height: 6vh; }
+
+.instruction-0 {
+  width: 90%;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=DBList.css.map */

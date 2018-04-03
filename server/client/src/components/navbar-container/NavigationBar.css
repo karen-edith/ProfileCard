@@ -1,0 +1,148 @@
+/* changes the color of navbar background and border to white*/
+.navbar-default{
+  background-color: white;
+  border-color: white;
+  }
+
+/* changes text color to grey and background color to white of navbar items once
+clicked on and not hovered over*/
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #555; /*grey*/
+  background-color:white;
+}
+
+/* changes text color and background to black and white
+respectively when hovering over, clicking and hovering over
+current item */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: black;
+  background-color: white;
+  box-shadow: none;
+  text-align: center;
+}
+
+/* Aligns navbar items to be centered around their boxes*/
+.navbar-default .navbar-nav > li {
+  text-align: center;
+}
+
+/* changes the navbar dropdown button text to black and background to
+white when clicked on */
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: black;
+  background-color: white;
+  /*min-width: 160px;*/
+  border-color: black;
+}
+
+/* makes the navbar dropwdown menu items have purple background
+and white text*/
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  color: white;
+  background-color: purple;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* makes dropdown button in the navbar dropdown menu borderless and shadowless*/
+.btn-default, .btn-default:focus{
+  border-color: white;
+  box-shadow: none;
+  background-color: white;
+}
+
+/* makes dropdown button in the navbar dropdown menu have purple background and
+white text when hovering over it*/
+.btn-default:hover {
+  color: white;
+  background-color: purple;
+  border-color: purple;
+  box-shadow: none;
+}
+
+/* makes dropdown when in navbar dropdown menu have purple background and white
+text when clicked */
+.btn-default:active:hover,
+.btn-default.active:hover,
+.open > .dropdown-toggle.btn-default:hover,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.open > .dropdown-toggle.btn-default:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default.focus {
+  color: white;
+  background-color: purple;
+  border-color: purple;
+  box-shadow: none;
+}
+
+/*keeps the dropdown button in the navbar dropdown menu with White text and
+pruple background when one of the dropdown button items is clicked*/
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: white;
+  background-color: purple;
+  border-color: purple;
+  box-shadow: none;
+}
+
+/*places a black border over top, left, and right side of the USERNAME dropdown
+button when clicked on */
+.dropdown.open #ddbtn {
+  border:1px solid black;
+  border-bottom:transparent;
+  position:relative;
+  background-color:white;
+  z-index:1000000;
+  min-width: 161px;
+}
+
+/*places a black border over the navbar dropdown menu edges and raises the menu
+by 1 px upwards to connect the USERNAME border with that of the menu border*/
+.dropdown-menu {
+  border-radius:0;
+  border:1px solid black;
+  margin:-1px 0px 0px !important;
+  box-shadow: none;
+  text-align: center;
+}
+
+/*changes the color of the navbar divider to a darker grey*/
+.dropdown-menu .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #C0C0C0;
+}
+
+/*changes the size and dimensions of the small button so that the dropdown button
+in the navbar dropdown menu matches teh size and font and highlight of the other
+navbar dropdown menu items*/
+.btn-sm,
+.btn-group-sm> .btn {
+  padding: 6px 16px;
+  font-size: 14px;
+  line-height: 1.0;
+  border-radius: 0px;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border:1px solid black;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}

@@ -1,0 +1,107 @@
+/* changes the color of navbar background and border*/
+.navbar-default{
+  background-color: white;
+  border-color: white;
+  }
+
+/* changes text color and background color of navbar items once
+clicked on and not hovered over*/
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #555; /*grey*/
+  background-color:white;
+}
+
+/* changes text color and background to white and purple
+respectively when hovering over, clicking and hovering over
+clicked items */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: white;
+  background-color: purple;
+  box-shadow: none;
+  text-align: center;
+}
+
+.navbar-default .navbar-nav > li {
+  text-align: center;
+}
+
+/* changes the dropdown button text to purple and background to
+white when clicked on */
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: purple;
+}
+
+/* makes dropdown button have purple background and white text*/
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  color: white;
+  background-color: purple;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* makes dropdown button borderless and shadowless*/
+.btn-default {
+  border-color: white;
+  box-shadow: none;
+}
+
+/* makes dropdown when hovering over it, have purple background and white
+text */
+.btn-default:hover {
+  color: white;
+  background-color: purple;
+  border-color: purple;
+  box-shadow: none;
+}
+
+/* makes dropdown when clicked, have purple background and white text */
+.btn-default:active:hover,
+.btn-default.active:hover,
+.open > .dropdown-toggle.btn-default:hover,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.open > .dropdown-toggle.btn-default:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default.focus {
+  color: white;
+  background-color: purple;
+  border-color: purple;
+  box-shadow: none;
+}
+
+.dropdown-menu {
+  border: 1px solid black;
+  text-align: center;
+}
+
+/*.dropdown-toggle {
+  padding: 5px;
+  text-decoration: none;
+  background-color: #ffffff;
+  display: inline-block;
+  font-size: 14px;
+  border: 1px solid #000000;
+  border-bottom-color: transparent;
+  margin-bottom: -1px;
+}*/
+
+.dropdown-menu {
+  margin: 0;
+  list-style: none;
+  white-space: nowrap;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+/*.dropdown {
+  min-width: 150px;
+}*/

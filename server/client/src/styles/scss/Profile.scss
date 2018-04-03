@@ -1,0 +1,100 @@
+.profile-pic-info-container{
+  border: 2px solid purple;
+  width: 80%;
+  height: 70vh;
+  margin: 0 auto;
+  box-shadow: 0px 0px 20px;
+  border-radius: 30px;
+  margin-top: 8vh;
+}
+
+.profile-pic-container{
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  /*border: 2px solid blue;*/
+  text-align: center;
+  height: 70vh;
+}
+
+.info-container{
+  width: 80%;
+  display: inline-block;
+  vertical-align: top;
+  /*border: 2px solid red;*/
+  height: 69.4vh;
+  border-right: 2px solid purple;
+
+  h3{
+    text-align: center;
+    padding: 10px;
+  }
+
+  .contact-info{
+    color: gray;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  div{
+    width:80%;
+    margin: 0 auto;
+    margin-bottom: 3px;
+  }
+
+  .info-box{
+    align: left;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    /*border: 2px solid blue;*/
+    font-weight: bold;
+  }
+
+  .info-box2{
+    align: right;
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    /*border: 2px solid blue;*/
+  }
+
+}
+
+
+img{
+  width: 150px;
+  height: 150px;
+  margin-top: 3.5vh;
+  margin-bottom: 1vh;
+  border-radius: 400px;
+  border: 4px solid purple;
+  box-shadow: 0px 0px 10px purple;
+}
+
+.user-icon{
+  color: purple;
+  padding: 5px;
+}
+
+.info-icon{
+  border-bottom: 2px dashed purple;
+  font-weight: bold;
+  color: purple;
+}
+
+.link{
+  margin: 10px;
+}
+
+.button-del{
+  border: none;
+  color: #3366BB;
+}
+
+.button-del:hover{
+  color: #2d5ba8;
+  text-decoration: underline;
+
+}

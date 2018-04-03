@@ -1,0 +1,114 @@
+.app-container {
+  /*border-style: solid;*/
+  /*.app-container-nav {
+    border-style: dashed;
+  }*/ }
+  .app-container .form-img-container {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px;
+    border-radius: 30px;
+    margin-top: 9vh; }
+    .app-container .form-img-container .app-container-profile {
+      /*border-style: dashed;
+      border-color: blue;*/
+      display: inline-block;
+      vertical-align: middle;
+      margin: 5%; }
+      .app-container .form-img-container .app-container-profile .app-container-profile-div {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        border-radius: 50%; }
+        .app-container .form-img-container .app-container-profile .app-container-profile-div .app-container-profile-img {
+          width: 100%;
+          height: 100%;
+          border-radius: 60%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          border: 3px solid purple;
+          box-shadow: 0px 0px 20px purple; }
+          .app-container .form-img-container .app-container-profile .app-container-profile-div .app-container-profile-img img {
+            border: none;
+            box-shadow: none; }
+        .app-container .form-img-container .app-container-profile .app-container-profile-div .app-container-profile-btn {
+          width: 100%;
+          height: 100%;
+          top: 45%;
+          height: 45%;
+          text-align: center;
+          position: absolute;
+          z-index: 10;
+          /*border-style: dotted;*/ }
+          .app-container .form-img-container .app-container-profile .app-container-profile-div .app-container-profile-btn .pcolor {
+            background-color: purple;
+            color: white; }
+          .app-container .form-img-container .app-container-profile .app-container-profile-div .app-container-profile-btn .hides {
+            display: none !important; }
+    .app-container .form-img-container .app-container-form {
+      width: 50%;
+      margin: 0 auto;
+      /*border-style: dashed;
+      border-color: red;*/
+      display: inline-block;
+      vertical-align: middle; }
+      .app-container .form-img-container .app-container-form .app-container-form-title {
+        width: 100%;
+        margin: left;
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        margin-bottom: 5vh;
+        /*border-style: dashed;
+        border-color: green;*/
+        border-bottom: 2px dashed purple; }
+      .app-container .form-img-container .app-container-form .app-container-form-boxes {
+        /*border-style:dashed;
+        border-color: blue;*/
+        height: 100%; }
+        .app-container .form-img-container .app-container-form .app-container-form-boxes .addon-btn-color {
+          background-color: #E6E6FA; }
+        .app-container .form-img-container .app-container-form .app-container-form-boxes .usr {
+          color: purple; }
+        .app-container .form-img-container .app-container-form .app-container-form-boxes .app-container-input-box {
+          margin-bottom: 0px;
+          margin-top: 2px; }
+        .app-container .form-img-container .app-container-form .app-container-form-boxes .app-container-input-box:focus {
+          margin-bottom: 0px;
+          margin-top: 2px;
+          border-color: #800080 !important;
+          outline: none !important;
+          box-shadow: 0 0 1px #800080; }
+        .app-container .form-img-container .app-container-form .app-container-form-boxes .app-container-form-valCheck {
+          /*border-style: dashed;
+          border-color: black;*/
+          /*margin-top: 0px;*/
+          width: 100%;
+          /*height:20px;*/
+          color: #a94442;
+          text-align: left;
+          padding-left: 5px;
+          padding-top: 5px; }
+        .app-container .form-img-container .app-container-form .app-container-form-boxes .app-container-form-buttons {
+          float: right;
+          /*border-style: dashed;
+          border-color: yellow;*/
+          padding-bottom: 7vh; }
+          .app-container .form-img-container .app-container-form .app-container-form-boxes .app-container-form-buttons .purple-background {
+            background-color: purple !important;
+            border-color: white !important;
+            color: white !important;
+            border-radius: 5px !important;
+            line-height: 1.42 !important; }
+          .app-container .form-img-container .app-container-form .app-container-form-boxes .app-container-form-buttons .purple-background:hover {
+            background-color: #800080 !important;
+            border-color: #800080 !important;
+            color: white !important;
+            border-radius: 5px !important;
+            line-height: 1.42 !important; }
+          .app-container .form-img-container .app-container-form .app-container-form-boxes .app-container-form-buttons .purple-background:focus, .app-container .form-img-container .app-container-form .app-container-form-boxes .app-container-form-buttons .purple-background:active {
+            outline: none !important;
+            box-shadow: none !important; }
+
+/*# sourceMappingURL=newAccount.css.map */

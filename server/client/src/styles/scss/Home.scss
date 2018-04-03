@@ -1,0 +1,136 @@
+$t-al: center;
+
+$testBorder: 2px solid;
+
+
+$fullwidth: 100%;
+$form-width: 45%;
+$img-container-width: 50%;
+$input-box-container-width: 70%;
+$button-width: 30%;
+
+$shadow: 0px 0px 20px purple;
+
+$center: 0 auto;
+
+$bcolor1: white;
+$borderColor: purple;
+$buttonColor: purple;
+
+
+.Home-Container{
+  /*border: $testBorder orange;*/
+  width: $fullwidth;
+
+  .Home-Form-Container{
+    width: $form-width;
+    /*border: $testBorder #703aa8;*/
+    margin: $center;
+    margin-top: 10vh;
+    box-shadow: $shadow;
+    border-radius: 15px;
+
+    .box{
+      margin-top: 6px;
+    }
+
+    .Home-Form-Img-Container{
+      /*border: $testBorder red;*/
+      width: $img-container-width;
+      margin: $center;
+      padding: 6px;
+      padding-top: 35px;
+
+      img{
+        width: 100px;
+        height: 100px;
+        display: block;
+        margin: $center;
+        animation-name: spin;
+        animation-duration: 1000ms;
+        animation-fill-mode: forwards;
+        border: none;
+        box-shadow: none;
+      }
+
+    }
+
+    .Home-Form-Login-Welcome-Container{
+      font-weight: bold;
+      text-align: center;
+      margin: $center;
+      /*border:$testBorder yellow;*/
+      border-bottom: 2px dashed purple;
+      padding-bottom: 5px;
+      margin-bottom:30px;
+      margin-top: 15px;
+      width: 65%;
+      font-size: 16px;
+    }
+
+    .Home-Form-Boxes-Container{
+      width: $input-box-container-width;
+      margin: $center;
+      /*border: $testBorder pink;*/
+
+      .addon-btn-color{
+        background-color: #E6E6FA;
+      }
+
+      .usr{
+        color: purple
+      }
+
+      .sub-but{
+        margin: $center;
+        /*border: $testBorder black;*/
+        text-align: center;
+
+        .btn-sub{
+          background-color: purple;
+          width: $button-width;
+          color: white
+        }
+      }
+
+      .Home-Link-Container{
+        text-align: center;
+        padding: 6px;
+        padding-bottom: 10px;
+        padding-top: 8px;
+      }
+
+      .Home-Link-Div-Container{
+        width:100%;
+        height:50px;
+        font-size: 11px;
+        /*border: $testBorder brown;*/
+
+        .pword-error{
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+
+.input-group .form-control {
+    margin: 0px !important;
+    box-shadow: none;
+}
+
+.form-control:focus{
+  border-color: purple;
+  box-shadow: 0px 0px 2px purple;
+  background-color: #E6E6FA;
+}
+
+
+@keyframes spin{
+  from{
+    transform: rotate(0deg);
+  } to {
+    transform: rotate(360deg);
+  }
+}
